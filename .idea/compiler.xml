@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="broker-hospital_main" target="1.8" />
+      <module name="broker-hospital_test" target="1.8" />
+      <module name="broker_main" target="1.10" />
+      <module name="broker_test" target="1.10" />
+      <module name="hospital_main" target="1.10" />
+      <module name="hospital_test" target="1.10" />
+      <module name="insurance-client_main" target="1.10" />
+      <module name="insurance-client_test" target="1.10" />
+      <module name="messaging_main" target="1.10" />
+      <module name="messaging_test" target="1.10" />
+      <module name="transport-price_main" target="1.10" />
+      <module name="transport-price_test" target="1.10" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="broker-hospital" options="--add-modules=javafx.fxml,javafx.controls,javafx.graphics,javafx.base" />
+      <module name="hospital" options="--add-modules=javafx.graphics,javafx.controls,javafx.fxml,javafx.base" />
+      <module name="insurance-client" options="--add-modules=javafx.controls,javafx.fxml,javafx.graphics,javafx.base" />
+      <module name="insurance-client_main" options="--add-modules=javafx.controls,javafx.fxml" />
+    </option>
+  </component>
+</project>

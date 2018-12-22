@@ -1,0 +1,22 @@
+subprojects {
+    apply plugin: 'java'
+
+    sourceCompatibility = 1.10
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+// https://mvnrepository.com/artifact/javax.jms/jms
+        compile group: 'javax.jms', name: 'jms', version: '1.1'
+// https://mvnrepository.com/artifact/org.apache.activemq/activemq-core
+        compile group: 'org.apache.activemq', name: 'activemq-core', version: '5.7.0'
+        compile group: 'org.slf4j', name: 'slf4j-nop', version: '1.7.25'
+        // https://mvnrepository.com/artifact/org.json/json
+        compile group: 'org.json', name: 'json', version: '20180813'
+        compile group: 'com.owlike', name: 'genson', version: '1.4'
+    }
+
+    version = '1.0'
+}
